@@ -5,51 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website HTML</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
     <header>
-      <h1>Personal Website HTML</h1>
+      <h1>Niklas Röttger - Lebenslauf</h1>
       <div>
-        <a href="#">Contact</a>
-        <a href="#">Biography</a>
+        <a href="#contact">Contact</a>
+        <a href="#biography">Biography</a>
       </div>
     </header>
-    <section>
-      <img src="" alt="Titelbild" />
-      <h6>Bildbeschreibung</h6>
-      <h4>Überschrift erster Text</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusamus
-        dignissimos libero optio, necessitatibus odio ratione molestias nobis
-        voluptatum, a, voluptatibus porro reiciendis animi ullam odit quaerat
-        voluptates dolorem facere.
-      </p>
-      <h4>Überschrift zweiter Text</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
-        similique iure mollitia ab. Corrupti obcaecati voluptas, ea, quibusdam
-        laborum suscipit error quasi ipsa optio, voluptates eligendi deleniti
-        nihil quod.
-      </p>
+    <section class="general-info">
+      <div>
+        <img src="Abbildungen/Bewerbungsfoto 2.jpg" alt="Titelbild" />
+        <h6>Bildbeschreibung</h6>
+      </div>
+      <div>
+        <h4>Überschrift erster Text</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          accusamus dignissimos libero optio, necessitatibus odio ratione
+          molestias nobis voluptatum, a, voluptatibus porro reiciendis animi
+          ullam odit quaerat voluptates dolorem facere.
+        </p>
+        <h4>Überschrift zweiter Text</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
+          similique iure mollitia ab. Corrupti obcaecati voluptas, ea, quibusdam
+          laborum suscipit error quasi ipsa optio, voluptates eligendi deleniti
+          nihil quod.
+        </p>
+      </div>
     </section>
-    <section>
+    <section id="contact">
       <h4>Contact</h4>
-      <p>Num: 0123/4567890</p>
-      <p>Mail: max@mustermann.de</p>
+      <div>
+        <p>Num: 0123/4567890</p>
+        <p>Mail: max@mustermann.de</p>
+      </div>
     </section>
-    <section>
-      <h4>Links</h4>
+    <section class="social">
+      <h4>Social</h4>
       <a href="https://github.com/NikRoe"
         ><img src="/Abbildungen/GitHub-Icon.png" alt="GitHub"
       /></a>
+      <p>Github</p>
       <a href="#"><img src="/Abbildungen/Codepen-icon.png" alt="Codepen" /></a>
+      <p>Codepen</p>
       <a href="#"
         ><img src="/Abbildungen/LinkedIn-Icon.png" alt="LinkedIn"
       /></a>
+      <p>LinkedIn</p>
     </section>
-    <section>
-      <h4>Überschrift unter den Links</h4>
+    <section id="biography">
+      <h4>Überschrift unter der Biography</h4>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni
         id, ipsa sint temporibus, porro consectetur ut expedita maxime nesciunt

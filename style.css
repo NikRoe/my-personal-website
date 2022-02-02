@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto:wght@100&family=Source+Serif+4:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cultive Mono", monospace;
+  margin: 2rem;
+  padding: 5px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+img {
+  border: 2px, solid, black;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5%;
+  border: 5px solid #eeeeee;
+}
+
+h1 {
+  color: black;
+  font-weight: bolder;
+  font-family: "Source Serif 4", monospace;
+}
+
+.social img {
+  text-align: center;
+  height: 100px;
+  margin: 40px;
+}
+
+.contact p {
+  display: inline;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+.general-info img {
+  height: 200px;
+  border-radius: 5%;
+}
+
+.general-info div {
+  display: inline-block;
+}
