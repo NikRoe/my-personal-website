@@ -5,66 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website HTML</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
     <header>
-      <h1>Personal Website HTML</h1>
-      <div>
-        <a href="#">Contact</a>
-        <a href="#">Biography</a>
-      </div>
+      <h1>Niklas Röttger - Lebenslauf</h1>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#biography">Biography</a>
+      </nav>
     </header>
-    <section>
-      <img src="" alt="Titelbild" />
-      <h6>Bildbeschreibung</h6>
-      <h4>Überschrift erster Text</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusamus
-        dignissimos libero optio, necessitatibus odio ratione molestias nobis
-        voluptatum, a, voluptatibus porro reiciendis animi ullam odit quaerat
-        voluptates dolorem facere.
-      </p>
-      <h4>Überschrift zweiter Text</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
-        similique iure mollitia ab. Corrupti obcaecati voluptas, ea, quibusdam
-        laborum suscipit error quasi ipsa optio, voluptates eligendi deleniti
-        nihil quod.
-      </p>
-    </section>
-    <section>
-      <h4>Contact</h4>
-      <p>Num: 0123/4567890</p>
-      <p>Mail: max@mustermann.de</p>
-    </section>
-    <section>
-      <h4>Links</h4>
-      <a href="https://github.com/NikRoe"
-        ><img src="/Abbildungen/GitHub-Icon.png" alt="GitHub"
-      /></a>
-      <a href="#"><img src="/Abbildungen/Codepen-icon.png" alt="Codepen" /></a>
-      <a href="#"
-        ><img src="/Abbildungen/LinkedIn-Icon.png" alt="LinkedIn"
-      /></a>
-    </section>
-    <section>
-      <h4>Überschrift unter den Links</h4>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni
-        id, ipsa sint temporibus, porro consectetur ut expedita maxime nesciunt
-        fuga rem minus eos est pariatur delectus architecto accusamus ex?
-      </p>
-    </section>
-    <section>
-      <h4>Letzte Überschrift</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-        obcaecati distinctio earum. Consequuntur dolores odit eaque, facere
-        mollitia, nobis aperiam ea voluptates, ipsum praesentium exercitationem
-        molestiae atque? Mollitia, minima autem!
-      </p>
-    </section>
+    <main>
+      <section class="general-info">
+        <article>
+          <img src="Abbildungen/Bewerbungsfoto 2.jpg" alt="Titelbild" />
+          <q>To code or not to code.</q>
+        </article>
+        <article>
+          <h2>Kurzbeschreibung</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            accusamus dignissimos libero optio, necessitatibus odio ratione
+            molestias nobis voluptatum, a, voluptatibus porro reiciendis animi
+            ullam odit quaerat voluptates dolorem facere.
+          </p>
+          <h2>Hobbys und Interessen</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            odit similique iure mollitia ab. Corrupti obcaecati voluptas, ea,
+            quibusdam laborum suscipit error quasi ipsa optio, voluptates
+            eligendi deleniti nihil quod.
+          </p>
+        </article>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <article class="contact">
+          <p>Num: 0123/4567890</p>
+          <p>Mail: max@mustermann.de</p>
+        </article>
+      </section>
+      <section>
+        <h2>Social</h2>
+        <section class="social">
+          <article>
+            <a href="https://github.com/NikRoe" target="_blank"
+              ><img src="/Abbildungen/GitHub-Icon.png" alt="GitHub"
+            /></a>
+            <p>
+              <a href="https://github.com/NikRoe" target="_blank">Github</a>
+            </p>
+          </article>
+          <article>
+            <a href="https://codepen.io/NikRoe" target="_blank"
+              ><img src="/Abbildungen/Codepen-icon.png" alt="Codepen"
+            /></a>
+
+            <p>
+              <a href="https://codepen.io/NikRoe" target="_blank">Codepen</a>
+            </p>
+          </article>
+          <article>
+            <a href="#" target="_blank"
+              ><img src="/Abbildungen/LinkedIn-Icon.png" alt="LinkedIn"
+            /></a>
+            <p><a href="#" target="_blank">LinkedIn</a></p>
+          </article>
+        </section>
+      </section>
+      <section class="biocv">
+        <article id="biography">
+          <h2>Biography</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+            magni id, ipsa sint temporibus, porro consectetur ut expedita maxime
+            nesciunt fuga rem minus eos est pariatur delectus architecto
+            accusamus ex?
+          </p>
+        </article>
+        <article>
+          <h2>CV</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+            obcaecati distinctio earum. Consequuntur dolores odit eaque, facere
+            mollitia, nobis aperiam ea voluptates, ipsum praesentium
+            exercitationem molestiae atque? Mollitia, minima autem!
+          </p>
+        </article>
+      </section>
+    </main>
     <footer>Text für den Footer</footer>
   </body>
 </html>
