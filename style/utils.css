@@ -1,0 +1,7 @@
+.fd-column {
+  flex-direction: column;
+}
+
+.no-border {
+  border: 0;
+}
