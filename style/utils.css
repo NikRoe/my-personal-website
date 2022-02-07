@@ -5,3 +5,15 @@
 .no-border {
   border: 0;
 }
+
+.lst-none {
+  list-style-type: none;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}

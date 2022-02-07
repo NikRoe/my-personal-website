@@ -1,0 +1,27 @@
+.Progressbar {
+  border-radius: 2rem;
+}
+
+.Progressbar__background {
+  color: white;
+}
+
+.Progressbar__highend {
+  width: 100%;
+  background-image: linear-gradient(to right, white 0%, green 100%);
+}
+
+.Progressbar__high {
+  width: 75%;
+  background-image: linear-gradient(to right, white 0%, yellow 100%);
+}
+
+.Progressbar__mid {
+  background-image: linear-gradient(to right, white 0%, orange 100%);
+  width: 50%;
+}
+
+.Progressbar__low {
+  width: 25%;
+  background-image: linear-gradient(to right, white 0%, red 100%);
+}

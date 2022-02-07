@@ -11,9 +11,9 @@
   <body>
     <header id="header">
       <h1>Niklas Röttger</h1>
-      <nav>
-        <a href="#social">Social</a>
-        <a href="#contact">Contact</a>
+      <nav class="Navbar__wrapper">
+        <a href="#social" class="Navbar__content">Social</a>
+        <a href="#contact" class="Navbar__content">Contact</a>
       </nav>
     </header>
     <main>
@@ -86,20 +86,20 @@
         <div class="Card no-border">
           <article id="tech-skills" class="Card no-border fd-column">
             <h2 class="Card__title">Tech</h2>
-            <ul>
+            <ul class="lst-none">
               <li>HTML</li>
               <li>CSS</li>
               <li>Git</li>
               <li>..</li>
             </ul>
           </article>
-          <article class="Card no-border fd-column">
+          <article class="Card no-border fd-column no-wrap">
             <h2 class="Card__title">Progress</h2>
-            <ul>
-              <li class="high-end-tier"></li>
-              <li class="high-tier"></li>
-              <li class="mid-tier"></li>
-              <li class="low-tier"></li>
+            <ul class="Progressbar__background pl-10">
+              <li class="Progressbar Progressbar__highend"></li>
+              <li class="Progressbar Progressbar__high"></li>
+              <li class="Progressbar Progressbar__mid"></li>
+              <li class="Progressbar Progressbar__low"></li>
             </ul>
           </article>
         </div>
@@ -110,7 +110,7 @@
         </div>
         <article class="Card no-border fd-column">
           <h2 class="Card__title">CV</h2>
-          <ol>
+          <ol class="lst-none">
             <li>Bootcamp neue Fische 31.01.21 - 26.04.21</li>
             <li>AMBOSS GmbH 01.03.20 - 31.12.21</li>
             <li>Splid 15.09.19 - dato</li>
@@ -118,6 +118,8 @@
         </article>
       </section>
     </main>
-    <footer><a href="#header">Zum Seitenanfang springen</a></footer>
+    <footer class="Navbar__wrapper">
+      <a href="#header" class="Navbar__content">Zum Seitenanfang springen</a>
+    </footer>
   </body>
 </html>
