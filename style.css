@@ -76,6 +76,7 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social {
@@ -114,6 +115,10 @@ footer a {
 
 .biocv div {
   display: flex;
+}
+
+.progress ul {
+  padding-left: 10px;
 }
 
 .progress ul li {
