@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cultive Mono", monospace;
+  background-color: #eeeeee;
+  text-align: center;
+}

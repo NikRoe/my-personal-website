@@ -1,129 +1,14 @@
+@import url(style/variables.css);
+@import url(style/base.css);
+@import url(style/components/Card.css);
+@import url(style/imagesizes.css);
+@import url(style/components/Navbar.css);
+@import url(style/components/Progressbar.css);
+@import url(style/utils.css);
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto:wght@100&family=Source+Serif+4:wght@200&display=swap");
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Cultive Mono", monospace;
-  margin: 2rem;
-  padding: 5px;
-  background-color: #eeeeee;
-  text-align: center;
-}
-
-section {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5%;
-  border: 5px solid #eeeeee;
-}
 
 h1 {
   color: black;
   font-weight: bolder;
   font-family: "Source Serif 4", monospace;
-}
-
-h2 {
-  color: maroon;
-  text-decoration: underline;
-  margin-top: 0rem;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.general-info {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-}
-
-.general-info article {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.general-info article img {
-  height: 200px;
-  border-radius: 5%;
-}
-
-.general-info article div {
-  display: flex;
-}
-
-.social {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  border: 0px;
-}
-
-.social article {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border: 2px #eeeeee solid;
-  border-radius: 10px;
-}
-
-.social img {
-  text-align: center;
-  height: 100px;
-  width: 150px;
-  margin: 40px;
-}
-
-.biocv {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.biocv div {
-  display: flex;
-}
-
-.progress ul li {
-  margin: 0px;
-  border-radius: 10px;
-  color: white;
-}
-
-.high-end-tier {
-  width: 100%;
-  background-image: linear-gradient(to right, white 0%, green 100%);
-}
-
-.high-tier {
-  width: 75%;
-  background-image: linear-gradient(to right, white 0%, yellow 100%);
-}
-
-.mid-tier {
-  background-image: linear-gradient(to right, white 0%, orange 100%);
-  width: 50%;
-}
-
-.low-tier {
-  width: 25%;
-  background-image: linear-gradient(to right, white 0%, red 100%);
-}
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: space-between;
 }

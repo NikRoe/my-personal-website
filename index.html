@@ -9,29 +9,35 @@
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <h1>Niklas Röttger</h1>
-      <nav>
-        <a href="#social">Social</a>
-        <a href="#contact">Contact</a>
+      <nav class="Navbar__wrapper">
+        <a href="#social" class="Navbar__content">Social</a>
+        <a href="#contact" class="Navbar__content">Contact</a>
       </nav>
     </header>
     <main>
-      <section class="general-info">
+      <section class="Card fd-column">
         <article>
-          <h2>Description</h2>
+          <h2 class="Card__title">Description</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
             accusamus
           </p>
         </article>
         <article>
-          <img src="Abbildungen/Bewerbungsfoto 2.jpg" alt="Titelbild" />
-          <q>To code or not to code.</q>
+          <div class="Card no-border fd-column">
+            <img
+              src="images/Bewerbungsfoto 2.jpg"
+              alt="Titelbild"
+              class="image"
+            />
+            <q>To code or not to code.</q>
+          </div>
         </article>
         <article>
-          <h2>Interests</h2>
-          <div>
+          <h2 class="Card__title">Interests</h2>
+          <div class="Card no-border">
             <ul>
               <li>Jogging</li>
               <li>Coding</li>
@@ -45,12 +51,15 @@
           </div>
         </article>
       </section>
-      <section id="social">
-        <h2>Social</h2>
-        <section class="social">
+      <section id="social" class="Card fd-column">
+        <h2 class="Card__title">Social</h2>
+        <section class="Card no-border">
           <article>
             <a href="https://github.com/NikRoe" target="_blank"
-              ><img src="/Abbildungen/GitHub-Icon.png" alt="GitHub"
+              ><img
+                src="/images/GitHub-Icon.png"
+                alt="GitHub"
+                class="image__mid"
             /></a>
             <p>
               <a href="https://github.com/NikRoe" target="_blank">Github</a>
@@ -58,7 +67,10 @@
           </article>
           <article>
             <a href="https://codepen.io/NikRoe" target="_blank"
-              ><img src="/Abbildungen/Codepen-icon.png" alt="Codepen"
+              ><img
+                src="/images/Codepen-icon.png"
+                alt="Codepen"
+                class="image__mid"
             /></a>
 
             <p>
@@ -67,48 +79,53 @@
           </article>
           <article>
             <a href="#" target="_blank"
-              ><img src="/Abbildungen/LinkedIn-Icon.png" alt="LinkedIn"
+              ><img
+                src="/images/LinkedIn-Icon.png"
+                alt="LinkedIn"
+                class="image__mid"
             /></a>
             <p><a href="#" target="_blank">LinkedIn</a></p>
           </article>
         </section>
       </section>
-      <section class="biocv">
-        <div>
-          <article id="tech-skills">
-            <h2>Tech</h2>
-            <ul>
+      <section class="Card">
+        <div class="Card no-border">
+          <article id="tech-skills" class="Card no-border fd-column">
+            <h2 class="Card__title">Tech</h2>
+            <ul class="lsd-none">
               <li>HTML</li>
               <li>CSS</li>
               <li>Git</li>
               <li>..</li>
             </ul>
           </article>
-          <article class="progress">
-            <h2>Progress</h2>
-            <ul>
-              <li class="high-end-tier"></li>
-              <li class="high-tier"></li>
-              <li class="mid-tier"></li>
-              <li class="low-tier"></li>
+          <article class="Card no-border fd-column no-wrap">
+            <h2 class="Card__title">Progress</h2>
+            <ul class="Progressbar__background pl-10">
+              <li class="Progressbar Progressbar__highend"></li>
+              <li class="Progressbar Progressbar__high"></li>
+              <li class="Progressbar Progressbar__mid"></li>
+              <li class="Progressbar Progressbar__low"></li>
             </ul>
           </article>
         </div>
-        <div id="contact">
-          <h2>Contact</h2>
+        <div id="contact" class="Card no-border fd-column">
+          <h2 class="Card__title">Contact</h2>
           <p>Num: 0123/4567890</p>
           <p>Mail: max@mustermann.de</p>
         </div>
-        <article>
-          <h2>CV</h2>
-          <ul>
-            <li>Bootcamp neue Fische</li>
-            <li>AMBOSS GmbH</li>
-            <li>Splid</li>
-          </ul>
+        <article class="Card no-border fd-column">
+          <h2 class="Card__title">CV</h2>
+          <ol class="lsd-none">
+            <li>Bootcamp neue Fische 31.01.21 - 26.04.21</li>
+            <li>AMBOSS GmbH 01.03.20 - 31.12.21</li>
+            <li>Splid 15.09.19 - dato</li>
+          </ol>
         </article>
       </section>
     </main>
-    <footer>Text für den Footer</footer>
+    <footer class="Navbar__wrapper">
+      <a href="#header" class="Navbar__content">Zum Seitenanfang springen</a>
+    </footer>
   </body>
 </html>
